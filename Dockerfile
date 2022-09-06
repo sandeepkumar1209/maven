@@ -4,6 +4,6 @@ RUN mkdir /opt/app
 
 EXPOSE 8080
 
-ADD target/App.jar /opt/app
+ADD target/app.jar /opt/app
 
-ENTRYPOINT [ "java" ,  "-jar" , "/opt/app/App.jar" ]
+CMD ["java", "-jar", "/opt/app/app.jar"]
