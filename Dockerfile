@@ -1,4 +1,4 @@
-FROM openjdk 11.0.13 
+FROM adoptopenjdk/openjdk11:latest 
 
 EXPOSE 8080
 
